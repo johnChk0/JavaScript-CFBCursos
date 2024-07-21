@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .contain_tecno{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 25px;
+            width: 100%;
+        }
+        .tecnologias{
+            min-height: 900px;      
+            width: 300px;
+            padding: 20px;
+            border: 2px solid black;
+        }
+        .botao_copia{
+            height: 50px;
+            width: 150px;
+        }
+        .tecnologias_copias{
+            min-height: 900px;      
+            width: 300px;
+            border: 2px solid black;  
+        }
+        .curso{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+            min-height: 50px;
+            border: 4px solid #888;
+            border-radius: 10px;
+            text-align: center;
+            margin: 5px 0px;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+        .curso:hover{
+            background-color: red;
+
+        }
+        .selecionado{
+            background-color: red;
+        }
+
+    </style>
+    <title>Aula 35 de JavaScript</title>
+</head>
+<body>
+    <section class="contain_tecno">
+        <div class="tecnologias" id="caixa1">
+            <div id="c1" class="curso">HTML</div>
+            <div id="c2" class="curso">CSS</div>
+            <div id="c3" class="curso">JavaScript</div>
+            <div id="c4" class="curso">PHP</div>
+            <div id="c5" class="curso">React</div>
+            <div id="c6" class="curso">MySql</div>
+            <div id="c7" class="curso">C++</div>
+            <div id="c8" class="curso">C#</div>
+            <div id="c9" class="curso">Arduino</div>
+            <div id="c10" class="curso">React Native</div>
+            <div id="c11" class="curso">Phyton</div>
+            <div id="c12" class="curso">RaspBerry</div>
+        </div>
+        <button class="botao_copia" id="botao">Copia -></button>
+        <div class="tecnologias_copias" id="caixa2"></
+        </div>
+    </section>
+
+    
+
+<script src="aula35.js"></script>
+</body>
+</html>
